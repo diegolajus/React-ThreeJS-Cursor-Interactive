@@ -1,0 +1,11 @@
+Model Information:
+* title:	Low-Poly Skull
+* source:	https://sketchfab.com/3d-models/low-poly-skull-7dc37b0f8edf4e89843b28db268fc973
+* author:	Vladimir E. (https://sketchfab.com/Room_42)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Low-Poly Skull" (https://sketchfab.com/3d-models/low-poly-skull-7dc37b0f8edf4e89843b28db268fc973) by Vladimir E. (https://sketchfab.com/Room_42) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
