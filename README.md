@@ -12,7 +12,10 @@
 
 This repository contains an application built with React and Three.js. The main functionality revolves around a 3D model (a skull in this case) that reacts to user interactions and smoothly transitions between predefined and mouse-based orientations.
 
-![](/src/assets/skull.gif)
+<div align="center">
+    <img src="src/assets/skull.gif"/>
+</div>
+
 
 ### Technologies Used
 
@@ -24,7 +27,7 @@ This repository contains an application built with React and Three.js. The main 
 
 - React Router Dom
 
-<!-- [Website](https://daily-image-nasa-api.netlify.app/) -->
+[Website](https://3d-object-follows-cursor.netlify.app/)
 
 </div>
 
@@ -35,8 +38,8 @@ Install dependencies using `npm install`.
 
 Use the provided development scripts 
 
-    - `npm run dev`
+`npm run dev`
 
-    - `npm run build`
+`npm run build`
 
-    - `npm run preview`
+`npm run preview`
