@@ -27,7 +27,6 @@ This repository contains an application built with React and Three.js. The main 
 
 - React Router Dom
 
-[Website](https://3d-object-follows-cursor.netlify.app/)
 
 </div>
 
@@ -43,3 +42,8 @@ Use the provided development scripts
 `npm run build`
 
 `npm run preview`
+
+
+
+[Demo](https://3d-object-follows-cursor.netlify.app/)
+
