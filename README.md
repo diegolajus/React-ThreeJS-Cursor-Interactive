@@ -45,5 +45,5 @@ Use the provided development scripts
 
 
 
-[Demo](https://3d-object-follows-cursor.netlify.app/)
+### [Website](https://3d-object-follows-cursor.netlify.app/)
 
