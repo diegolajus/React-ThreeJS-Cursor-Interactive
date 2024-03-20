@@ -13,22 +13,13 @@ This repository contains an application built with React and Three.js. The main 
 
 
 
-### [Basic Skull](https://github.com/diegolajus/3D_Object_Follows_Cursor/tree/main)
+### Basic Skull
 
 <div align="center">
     <img src="src/assets/skull.gif"/>
 </div>
 
 
-
-
-
-### [Skull With Terrain](https://github.com/diegolajus/3D_Object_Follows_Cursor/tree/skull_with_terrain)
-
-
-<div align="center">
-    <img src="src/assets/skullwithterrain.gif"/>
-</div>
 
 
 
