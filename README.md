@@ -8,13 +8,29 @@
 
 </div>
 
-### Overview
 
 This repository contains an application built with React and Three.js. The main functionality revolves around a 3D model (a skull in this case) that reacts to user interactions and smoothly transitions between predefined and mouse-based orientations.
+
+
+
+### [Basic Skull](https://github.com/diegolajus/3D_Object_Follows_Cursor/tree/main)
 
 <div align="center">
     <img src="src/assets/skull.gif"/>
 </div>
+
+
+
+
+
+### [Skull With Terrain](https://github.com/diegolajus/3D_Object_Follows_Cursor/tree/skull_with_terrain)
+
+
+<div align="center">
+    <img src="src/assets/skullwithterrain.gif"/>
+</div>
+
+
 
 
 ### Technologies Used
