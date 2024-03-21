@@ -13,10 +13,16 @@ This repository contains an application built with React and Three.js. The main 
 
 
 
-### Basic Skull
+### [Basic Skull](https://github.com/diegolajus/3D_Object_Follows_Cursor/tree/main)
 
 <div align="center">
     <img src="src/assets/skull.gif"/>
+</div>
+
+### [Skull with divs](https://github.com/diegolajus/3D_Object_Follows_Cursor/tree/skull-with-divs)
+
+<div align="center">
+    <img src="src/assets/skullwithdivs.gif"/>
 </div>
 
 
