@@ -9,48 +9,69 @@
 </div>
 
 
-This repository contains an application built with React and Three.js. The main functionality revolves around a 3D model (a skull in this case) that reacts to user interactions and smoothly transitions between predefined and mouse-based orientations.
-
-
-
-### Basic Skull
-
 <div align="center">
-    <img src="src/assets/skull.gif"/>
+    <img src="src/assets/skullwithdivs.gif"/>
 </div>
 
 
 
+In this case I tried to add three sections formed by :
+
+src/constants/index.js
+
+```js 
+export const BUTTONS_DATA = [
+    { id: 1, label: 'CONTACT' },
+  ];
 
 
+  export const DIVS_DATA = [
+    { id: 1, label: 'ABOUT' },
+  ];
 
-### Technologies Used
+  export const PROJECTS_DATA = [
+    { id: 1, label: 'CONTACT' },
+  ];
+```
+and Hero.jsx:
 
-- React
+```js
+        <div className="section2">
+          {PROJECTS_DATA.map((button, index) => {
+            const { x, y } = calculateButtonPosition(index, PROJECTS_DATA.length);
+            return (
+              <button
+                className="button"
+                key={button.id}
+                onClick={() => alert(`${button.label} clicked`)}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
+              >
+                {button.label}
+              </button>
+            );
+          })}
+        </div>
+```
 
-- Three.js
+The Skull is not going to keep following the cursor when it hovers over this 'className="section{x}"'
 
-- Framer Motion
+That's why I used:
 
-- React Router Dom
+```onMouseEnter={handleMouseEnter}```
 
+```onMouseLeave={handleMouseLeave}```
 
-</div>
+ In this case when cursor hovers this sections, the 3D object will reset to the 0,0,0 position:
 
+  ```js
 
-### Clone the repository.
+    const handleMouseEnter = () => {
+    setIsStaringMiddle(true);
+  };
 
-Install dependencies using `npm install`.
+  const handleMouseLeave = () => {
+    setIsStaringMiddle(false);
+  };
 
-Use the provided development scripts 
-
-`npm run dev`
-
-`npm run build`
-
-`npm run preview`
-
-
-
-### [Website](https://3d-object-follows-cursor.netlify.app/)
-
+  ```
