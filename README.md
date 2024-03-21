@@ -1,6 +1,6 @@
 <div align='center'>
 
-# 3D Oject Follows Cursor
+# 3D Object Follows Cursor
 
 
 ![](https://img.shields.io/badge/Three.js-r162-purple) ![](https://img.shields.io/badge/React-18.2.0-blue)  
