@@ -26,8 +26,8 @@ export default function Aims({ isStaringMiddle }) {
       targetPosition.current = [0, 0, 0];
     } else {
       // Otherwise, use mouse-based functionality
-      const x = -(mouse.x * viewport.width) /10;
-      const y = -(mouse.y * viewport.height) /10;
+      const x = -(mouse.x * viewport.width) /15;
+      const y = -(mouse.y * viewport.height) /15;
       targetPosition.current = [x, y, 5];
     }
 

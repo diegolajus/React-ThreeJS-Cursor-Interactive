@@ -1,0 +1,31 @@
+.sections-container {
+  display: flex;
+  justify-content: center; 
+  align-items: flex-end;
+  position: absolute;
+  bottom: 140px; 
+  left: 0;
+  right: 0;
+  padding: 0 20px; 
+}
+
+.section1 {
+  margin-right: 150px; 
+  z-index: 1;
+
+}
+
+.section2 {
+  margin-right: 150px; 
+  z-index: 1;
+}
+
+.section3 {
+  z-index: 1;
+}
+
+
+.section1, .section2, .section3 {
+  height: 75px;
+  display: flex;
+}
